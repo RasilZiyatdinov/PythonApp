@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-diabet_model = pickle.load(open("diabet_model.pkl", "rb"))
+diabet_model = pickle.load(open(".\models\diabet_model.pkl", "rb"))
 
 def diabetes_prediction(input_data):
     input_data_as_numpy_array = np.asarray(input_data)

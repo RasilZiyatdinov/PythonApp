@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 
-stroke_model = pickle.load(open("stroke_model.pkl", "rb"))
+stroke_model = pickle.load(open(".\models\stroke_model.pkl", "rb"))
 
 males = {"Муж": 1, "Жен": 0}
 ever_married = {"Да": 1, "Нет": 0}
